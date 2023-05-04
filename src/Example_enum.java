@@ -9,5 +9,6 @@ public class Example_enum {
         FreshJuice juice = new FreshJuice();
         juice.size = FreshJuice.FreshJuiceSize.LARGE  ;
         System.out.println(juice.size);
+        System.out.println(juice.size);
     }
 }
