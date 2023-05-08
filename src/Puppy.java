@@ -3,8 +3,14 @@ public class Puppy{
     //访问实例变量和调用成员
     public Puppy(String name){
         // 这个构造器仅有一个参数：name
+//        this.name=name;
         System.out.println("小狗的名字是 : " + name );
     }
+//    public Puppy(String age){
+//        this(name);
+//        this.age=age;
+//
+//    }
 
     public void setAge( int age ){
         puppyAge = age;
