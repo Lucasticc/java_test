@@ -16,5 +16,9 @@ public class temp {
             i++;
         }
         System.out.println(sb);
+        System.out.println(sb.reverse());
+        System.out.println(sb.delete(2,8));
+        System.out.println(sb.replace(2,3,"dd"));
+        System.out.println(sb.length() );
     }
 }
