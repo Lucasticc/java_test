@@ -1,5 +1,7 @@
+import java.lang.*;
 public class Math {
     public static String a;
+
     final static String str = "kbc";//静态常量
     public Math() {
        a = "ddd";//在构造方法中对参数进行初始化
@@ -18,6 +20,9 @@ public class Math {
         return len;
 
     }
+    public double max(double num1,double num2){
+        return num1>num2?num1:num2;
+    }
     public static void main(String[] args){
         Math m = new Math();
         System.out.println(a);
@@ -35,5 +40,8 @@ public class Math {
         String s = "c,d,d,d,";
         String[] split = s.split(",");
         System.out.println(split[1]);// 分割字符串
+//        System.out.println(java.lang.Math.random());
+        System.out.println((int)m.max(java.lang.Math.random()*10,(int)java.lang.Math.random()*10));
     }
+
 }
